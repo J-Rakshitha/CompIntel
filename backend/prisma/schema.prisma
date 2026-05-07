@@ -23,7 +23,7 @@ model Salary {
   total_compensation Float
   confidence_score  Float    @default(1.0)
   created_at        DateTime @default(now())
-  updated_at        DateTime @updatedAt
+  updated_at        DateTime @default(now()) @updatedAt
 
   @@index([company])
   @@index([level])
