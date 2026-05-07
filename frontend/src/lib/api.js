@@ -1,5 +1,6 @@
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:4000/api';
+const BASE_URL = process.env.REACT_APP_API_URL || 'https://compintel-ul49.onrender.com/api';
 async function apiFetch(path, options = {}) {
+  
   const res = await fetch(`${BASE_URL}${path}`, {
     headers: { 'Content-Type': 'application/json', ...options.headers },
     ...options,
