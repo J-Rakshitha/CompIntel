@@ -1,0 +1,47 @@
+## CompIntel — How to Run
+
+### Every time project run cheyyadaniki:
+
+**Step 1 — VS Code open cheyyi**
+```
+File → Open Folder → compintel folder select cheyyi
+```
+
+**Step 2 — Two terminals open cheyyi (Ctrl + `)**
+
+---
+
+**Terminal 1 — Backend:**
+```bash
+cd C:\Users\akula\Downloads\compintel\compintel\backend
+npm run dev
+```
+✅ `🚀 CompIntel backend running on http://localhost:4000` vasthe ready!
+
+---
+
+**Terminal 2 — Frontend (+ button click cheyyi new terminal):**
+```bash
+cd C:\Users\akula\Downloads\compintel\compintel\frontend
+npm start
+```
+✅ `Compiled successfully!` vasthe ready!
+
+---
+
+**Step 3 — Browser lo open cheyyi:**
+```
+http://localhost:3000
+```
+
+---
+
+### ⚠️ Important Notes:
+- **Rendu terminals same time lo running undali**
+- Backend先 start cheyyi, tarvata frontend
+- Port busy unte: `taskkill /F /IM node.exe` run cheyyi
+
+---
+
+### 🛑 Stop cheyyadaniki:
+Both terminals lo **Ctrl + C** press cheyyi

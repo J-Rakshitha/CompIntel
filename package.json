@@ -1,0 +1,12 @@
+{
+  "name": "compintel",
+  "version": "1.0.0",
+  "description": "Compensation Intelligence System",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "setup": "cd backend && npm install && npx prisma db push && node src/seed.js && cd ../frontend && npm install"
+  }
+}
